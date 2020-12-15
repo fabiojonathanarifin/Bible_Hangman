@@ -6,7 +6,7 @@ def get_word():
     word = random.choice(word_bank)
     return word.upper()
 
-#the game
+#the set up the beginning of the game
 def play(word):
     word_completion = "_" * len(word)
     guessed = False
